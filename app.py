@@ -3,6 +3,7 @@ import tensorflow as tf # import the tensorflow package with an alias of tf
 import numpy as np # import the numpy package with an alias of np
 import os  # import the os package
 
+
 app = Flask(__name__, static_url_path = "/assets", static_folder = "assets")
 
 model_directory = "nodels" # set the model directory
